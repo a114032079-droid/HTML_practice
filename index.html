@@ -22,21 +22,20 @@
         <h1>歡迎來到我的網⾴設計學習筆記</h1>
         <nav>
             <a href="index.html">⾸⾴</a> |
-            <a href="https://www.shu.edu.tw/" target="_blank">世新⼤學⾸⾴</a>
+            <a href="https://www.shu.edu.tw/" target="_blan
+k">世新⼤學⾸⾴</a>
         </nav>
+        <button id="theme-btn" onclick="toggleTheme()">🌙
+            切換深⾊模式</button>
     </header>
-    <section>
+    <section id="about-section">
         <h2>關於我的學習⽬標</h2>
-        <p>這是我在世新⼤學網⾴設計通識課的第三週練習作品。</p>
-        <p>透過每週逐步練習，希望能打造出專屬⾃⼰的網⾴作品集！</p>
+        <p id="welcome-msg">這是我在世新⼤學網⾴設計通識課的練
+            習作品。</p>
+        <button onclick="showSmartGreeting()">💡 取得今⽇學
+            習動⼒問候語</button>
+        <br><br>
         <img src="2021-logo.png" alt="世新⼤學Logo">
-        <h3>本週學會的技能列表：</h3>
-        <ul>
-            <li>掌握 HTML5 基礎結構與幕後 head 設定</li>
-            <li>學會 h1~h6 標題階層與 p 段落</li>
-            <li>運⽤ header, nav, section, footer 語意標籤</li>
-            <li>加⼊超連結與圖⽚ (含 alt 描述)</li>
-        </ul>
     </section>
     <section>
         <h2>本學期課程簡表</h2>
@@ -58,6 +57,11 @@
     <footer>
         <p>© 2026 (陳志軒) All Rights Reserved.</p>
     </footer>
+    <!-- 引⼊外部 JavaScript 檔案 -->
+    <script src="script.js"></script>
+</body>
+
+</html>
 </body>
 
 </html>
